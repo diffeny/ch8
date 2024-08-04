@@ -35,7 +35,7 @@ jobs:
         # Your testing commands here
         npm install
         npm test
-        time sleep 10
+        time sleep 5
 
     # This step will only run if the previous step ("Run tests") succeeds
     - name: Set commit status to success
