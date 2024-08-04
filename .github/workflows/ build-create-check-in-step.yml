@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: step to create a check in_progress
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         id: create-check
         with:
           result-encoding: string
@@ -37,7 +37,7 @@ jobs:
             return check.data.id
       - run: sleep 30
       - name: step to update check completed
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         id: create-check-completed
         with:
           result-encoding: string
