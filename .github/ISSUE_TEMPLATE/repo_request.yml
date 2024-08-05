@@ -6,7 +6,7 @@ labels:
   - 'issue-ops'
 projects: 'diffeny/1'
 assignees: 
-  - wulfland
+  - jameszh
 body:
   - type: input
     id: name
